@@ -38,7 +38,7 @@ public class Article {
     private String filePath;  // Ruta del archivo PDF/PPT/Word
 
     //@Column(name = "conference_id", nullable = false)
-   // private Long conferenceId; // Solo almacenas el ID de la conferencia
+    private Long conferenceId; // Solo almacenas el ID de la conferencia
     private Long autorId; // ID del autor que creó el articulo
 
     public Long getAutorId() {
@@ -92,20 +92,14 @@ public class Article {
         this.filePath = filePath;
     }
 
-   /* public ConferenceDTO getConference() {
-        return conference;
-    }
-
-    public void setConference(ConferenceDTO conference) {
-        this.conference = conference;
-    }*/
-       /* public Long getConferenceId() {
+ 
+        public Long getConferenceId() {
         return conferenceId;
     }
 
     public void setConferenceId(Long conferenceId) {
         this.conferenceId = conferenceId;
-    }*/
+    }
     
     
 }
