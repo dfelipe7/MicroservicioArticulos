@@ -9,10 +9,14 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
 
 /**
+ * Clase de configuración para definir los beans de la aplicación.
+ * Se encarga de proporcionar una instancia de RestTemplate para realizar llamadas HTTP.
  *
- * @author Unicauca
+ * @author Daniel Muñoz
+ * @author Jesus Iles
+ * @author Esteban Martinez
+ * @author Felipe Armero
  */
-
 @Configuration
 public class AppConfig {
     @Bean
